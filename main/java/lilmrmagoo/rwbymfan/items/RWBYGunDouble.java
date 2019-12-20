@@ -1,7 +1,7 @@
 package lilmrmagoo.rwbymfan.items;
 import com.google.common.collect.Multimap;
 import com.mojang.realmsclient.gui.ChatFormatting;
-import lilmrmagoo.RwbymFan.Main
+import lilmrmagoo.rwbymFan.Main;
 import io.github.blaezdev.rwbym.Init.RWBYItems;
 import io.github.blaezdev.rwbym.RWBYModels;
 import io.github.blaezdev.rwbym.RWBYSoundHandler;
@@ -1256,18 +1256,3 @@ public class RWBYGunDouble extends ItemBow implements ICustomItem{
     
 }
 
-
-
-
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
