@@ -22,7 +22,6 @@ import net.minecraftforge.fml.relauncher.Side;
 public class ItemInit 
 {
 
-	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item CLAW_FANG_SCY new RWBYGunDouble(
 			"claw_fang_scy",
