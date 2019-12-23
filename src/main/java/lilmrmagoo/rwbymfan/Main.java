@@ -1,6 +1,7 @@
 package lilmrmagoo.rwbymfan;
 
 import lilmrmagoo.rwbymfan.proxy.CommonProxy;
+import lilmrmagoo.rwbymfan.init.ItemInit;
 import lilmrmagoo.rwbymfan.proxy.ClientProxy;
 import lilmrmagoo.rwbymfan.util.Reference;
 import net.minecraft.creativetab.CreativeTabs;
@@ -16,7 +17,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, dependencies = "required-after:rwbym")
 public class Main 
 {
-	public static final String MOD_ID = "rwbyfm";
+	public static final String MOD_ID = "rwbymfanm";
 	
 	@Instance
 	public static Main instance;
@@ -26,7 +27,7 @@ public class Main
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event){}
+	public static void PreInit(FMLPreInitializationEvent event){ ItemInit.registerAll(event);}
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
