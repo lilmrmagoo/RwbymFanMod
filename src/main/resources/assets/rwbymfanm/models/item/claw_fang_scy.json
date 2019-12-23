@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "rwbyfm:blocks/awool_colored_or",
-		"1": "rwbymfm:blocks/awool_colored_cyan1",
+		"0": "rwbymfanm:blocks/awool_colored_or",
+		"1": "rwbymfanm:blocks/awool_colored_cyan1"
 	},
 	"elements": [
 		{
